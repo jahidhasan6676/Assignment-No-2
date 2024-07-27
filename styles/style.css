@@ -217,6 +217,7 @@ body{
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
+    margin-top:15px;
 
 }
 .exercise-description{
@@ -234,6 +235,48 @@ body{
     gap:120px;
     margin-top:50px;
     
+}
+/* habits part css style end */
+
+/* extra mile part css style start */
+.extra-mile{
+    max-width:75%;
+    height:350px;
+    /* border:2px solid red; */
+    margin:0 auto;
+    margin-bottom:80px;
+    display:flex;
+    border-radius: 15px;
+    background: rgb(34, 34, 34);
+}
+.extra-title{
+    color: rgb(255, 255, 255);
+    font-size:2rem;
+    font-weight: 700;
+
+}
+.extra-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    margin-top:15px;
+    margin-bottom:20px;
+
+}
+.extra-mile-content{
+    width:60%;
+    height:100%;
+    padding-top:70px;
+    padding-left:40px;
+}
+.extra-mile-picture{
+    width:40%;
+    height:100%;
+    padding:20px;
+}
+.extra-mile-picture img{
+    width:100%;
+    height:100%;
+    border-radius:10px;
 }
 
 
@@ -283,9 +326,19 @@ body{
         gap:50px;
         text-align:center;
     }
-    .exercise-title{
-        margin-top:15px;
+    .extra-mile{
+        flex-direction: column;
+        max-width:90%;
+        height:100%;
     }
+    .extra-mile-content{
+        width:100%;
+        padding-top:10px;
+    }
+    .extra-mile-picture{
+        width:100%;
+    }
+    
     
     
     
