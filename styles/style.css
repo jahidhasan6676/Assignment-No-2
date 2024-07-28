@@ -26,7 +26,7 @@ body{
     cursor: pointer;
 }
 #header-container{
-    width:100%;
+    max-width:100%;
     /* border:2px solid red; */
     background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     margin-bottom:80px;
@@ -385,6 +385,8 @@ th{
     padding:15px;
 }
 .team-content{
+    max-width:65%;
+    margin:0 auto;
     text-align:center;
     margin-bottom:40px;
 }
@@ -518,8 +520,14 @@ th{
     .team-container{
         grid-template-columns: repeat(1, 1fr);
         height:1430px;
-        max-width:85%;
+        max-width:90%;
     }
+    .team-content{
+        max-width:90%;
+
+        
+    }
+    
     
     
     
