@@ -23,6 +23,7 @@ body{
     border-radius: 40px;
     background: rgb(230, 83, 60);
     border:none;
+    cursor: pointer;
 }
 #header-container{
     width:100%;
@@ -41,6 +42,7 @@ body{
     font-weight:600;
     font-size:0.8rem;
     border:none;
+    cursor: pointer;
 }
 .navbar{
     max-width:75%;
@@ -56,6 +58,7 @@ body{
     margin-right:25px;
     font-size:0.8rem;
     font-weight:400;
+    
 }
 .nav-menu{
     display:flex;
@@ -63,6 +66,7 @@ body{
     border-radius: 39px;
     padding:4px 1px 4px 4px;
     align-items: center;
+    cursor: pointer;
 }
 .nav-content{
     color: rgb(230, 83, 60);
@@ -120,6 +124,7 @@ body{
     border-radius: 40px;
     background:none;
     margin-top:30px;
+    cursor: pointer;
 }
 .design{
     font-family: 'Miama', sans-serif;
@@ -363,6 +368,88 @@ th{
     flex-wrap: wrap;
     gap:8px;
 }
+/* bmi calculator css style end */
+
+/* our team css style start */
+.team-container{
+    max-width:65%;
+    height:500px;
+    /* border:2px solid red; */
+    margin:0 auto;
+    margin-bottom:80px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    padding:15px;
+}
+.team-content{
+    text-align:center;
+    margin-bottom:40px;
+}
+.jerome{
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+
+   
+}
+
+.williamson{
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    
+   
+}
+
+
+.darrel{
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    
+    
+}
+.russel{
+    background-image: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    
+}
+.cody{
+    background-image: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    
+}
+.theresa{
+    background-image:  url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    
+   
+}
+.team-title{
+    color: rgb(255, 255, 255);
+    font-size:0.8rem;
+    font-weight:400;
+    margin-top:190px;
+    margin-left:10px;
+}
+.team-description{
+    color: rgba(255, 255, 255, 0.6);
+    font-size:0.6rem;
+    margin-left:10px;
+}
+
 
 
 
@@ -437,6 +524,11 @@ th{
     }
     .bmi-content{
         margin-left:20px;
+    }
+    .team-container{
+        grid-template-columns: repeat(1, 1fr);
+        height:1430px;
+        max-width:90%;
     }
     
     
