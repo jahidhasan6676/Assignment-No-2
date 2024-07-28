@@ -393,8 +393,6 @@ th{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:15px;
-
-   
 }
 
 .williamson{
@@ -402,8 +400,6 @@ th{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:15px;
-    
-   
 }
 
 
@@ -412,30 +408,24 @@ th{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:15px;
-    
-    
 }
 .russel{
     background-image: url(../images/trainer4.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:15px;
-    
 }
 .cody{
     background-image: url(../images/trainer5.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius:15px;
-    
+    border-radius:15px;    
 }
 .theresa{
     background-image:  url(../images/trainer6.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:15px;
-    
-   
 }
 .team-title{
     color: rgb(255, 255, 255);
@@ -528,7 +518,7 @@ th{
     .team-container{
         grid-template-columns: repeat(1, 1fr);
         height:1430px;
-        max-width:90%;
+        max-width:85%;
     }
     
     
