@@ -483,9 +483,62 @@ th{
     width:45%;
     height:100%;
 }
-.btn-3{
-    border:1px solid red;
+/* strong body css style end */
+
+/* footer part css style */
+.footer{
+    max-width:100%;
+    height:300px;
+    /* border:2px solid red; */
+    background: rgba(255, 255, 255, 0.1);
+    
 }
+.fitness-title{
+    color: rgb(230, 83, 60);
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:30px;
+    margin-top:50px;
+}
+.fitness-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.8rem;
+}
+.started-title{
+    color: rgb(255, 255, 255);
+    font-size:1.1rem;
+    margin-bottom:30px;
+    margin-top:50px;
+    
+}
+.started-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.8rem;
+
+}
+.fitness-container{
+    max-width:75%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    
+   
+}
+.hr{
+    max-width:75%;
+    margin:0 auto;
+    margin-top:50px;
+    opacity:0.1;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.7rem;
+    text-align:center;
+    margin-top:10px;
+    /* margin-bottom:10px; */
+}
+    
+
 
 
 
@@ -581,6 +634,12 @@ th{
     }
     .strong-body-content{
         width:100%;
+    }
+    .fitness-container{
+        flex-direction: column;
+    }
+    .footer{
+        height:680px;
     }
     
     
