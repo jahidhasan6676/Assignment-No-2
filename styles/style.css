@@ -441,6 +441,52 @@ th{
     font-size:0.6rem;
     margin-left:10px;
 }
+/* our team css style end */
+
+/* strong body css style start */
+.strong-body-container{
+    max-width:65%;
+    /* border:2px solid red; */
+    margin:0 auto;
+    display:flex;
+    margin-bottom:80px;
+    gap:5%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    border-radius:10px;
+    padding:15px;
+}
+.strong-body-title{
+    color: rgb(255, 255, 255);
+    font-size:1.5rem;
+    font-weight:700;
+}
+.span{
+    color:rgb(220, 62, 38);
+}
+.strong-body-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.8rem;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+.strong-body-images{
+    width:50%;
+}
+.strong-body-images img{
+    width:100%;
+    height:100%;
+    border-radius:5px;
+}
+.strong-body-content{
+    width:45%;
+    height:100%;
+}
+.btn-3{
+    border:1px solid red;
+}
+
 
 
 
@@ -524,8 +570,17 @@ th{
     }
     .team-content{
         max-width:90%;
-
-        
+    }
+    .strong-body-container{
+        flex-direction: column;
+        max-width:90%;
+        gap:30px;
+    }
+    .strong-body-images{
+        width:100%;
+    }
+    .strong-body-content{
+        width:100%;
     }
     
     
